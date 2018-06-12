@@ -16,7 +16,7 @@
          $num1 = test_input($_POST["num1"]);
             $num2 = test_input($_POST["num2"]);
          $operator = test_input($_POST["operator"]);
-         exec("/usr/lib/cgi-bin/student1/finalproject  " . $operator . " " . $num1. " " . $num2, $output, $retc);
+         exec("/usr/lib/cgi-bin/student1/finalprojectmake  " . $operator . " " . $num1. " " . $num2, $output, $retc);
        }
        function test_input($data) {
          $data = trim($data);
